@@ -3,9 +3,6 @@
 
 using namespace std;
 
-// Определяет, будет ли слово палиндромом
-// text может быть строкой, содержащей строчные буквы английского алфавита и пробелы
-// Пустые строки и строки, состоящие только из пробелов, - это не палиндромы
 string SearchSpace(const string& text) {
 
 
@@ -26,7 +23,6 @@ string SearchSpace(const string& text) {
 }
 bool IsPalindrome(const string& text) {
 
-    // нужно понять, будет ли s палиндромом
     bool poly=0;
     string query=SearchSpace(text);
     if(!query.size()||query.size()==1)
